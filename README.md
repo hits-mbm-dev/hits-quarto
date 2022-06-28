@@ -25,7 +25,7 @@ format:
     keep-tex: true  
   hits/poster-html:
       qrcode:
-        text: "https://github.com/hits-mbm-dev/paper-talin-loop"
+        text: "https://github.com/hits-mbm-dev/hits-quarto"
         size: "250"
 ```
 
