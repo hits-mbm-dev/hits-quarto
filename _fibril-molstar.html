@@ -1,0 +1,28 @@
+
+
+<div id="app1"></div>
+<script type="text/javascript" src="./www/molstar.js"></script>
+<link rel="stylesheet" type="text/css" href="./www/molstar.css" />
+<script type="text/javascript">
+var viewer1 = new molstar.Viewer('app1', {
+  layoutIsExpanded: false,
+  layoutShowControls: false,
+  layoutShowRemoteState: false,
+  layoutShowSequence: false,
+  layoutShowLog: false,
+  layoutShowLeftPanel: true,
+  viewportShowExpand: true,
+  viewportShowSelectionMode: false,
+  viewportShowAnimation: true,
+  pdbProvider: "rcsb",
+  emdbProvider: "rcsb",
+});
+// viewer1.loadStructure("./www/system-npt.pdb");
+// viewer1.loadPdb('7bv2');
+viewer1.loadTrajectory({
+                model: { kind: 'model-url', url: './www/triplehelix-pull.gro', format: 'gro' },
+                coordinates: { kind: 'coordinates-url', url: './www/triplehelix-pull.xtc',
+    format: 'xtc', isBinary: true }
+});
+</script>
+

@@ -1,0 +1,98 @@
+---
+title: |
+  Amazing and Inspiring Title
+custom-authors:
+  - name: Author One
+    affiliation: 1,2
+    extra:
+      - "email@example.com"
+      - '<a href="https://example.com">example.com</a>'
+    url: example.com
+  - name: Author Two
+    affiliation: 1,2
+  - name: Author Three
+    affiliation: 1
+affiliation:
+  - Heidelberg Institute for Theoretical Studies (HITS)
+  - Heidelberg University
+date: "2022-02-22"
+link-citations: true
+validate-yaml: false
+format:
+  hits/poster-html:
+    qrcode:
+      text: "https://github.com/hits-mbm-dev/hits-quarto"
+      size: "250"
+bibliography: references.bib
+---
+
+
+::: {#hero}
+::: {#qrcode}
+:::
+
+Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
+enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
+exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit
+nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor
+minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure
+elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor
+Lorem duis laboris cupidatat officia voluptate. Culpa proident
+adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod.
+Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa
+et culpa duis.
+
+![](www/hits-logo-large-negative.png){#logo-hits .logo}
+![](www/logo-uni-hd-bw-inv.png){#logo-uni-hd .logo}
+
+::: {.call-to-action}
+Follow the QR code or visit
+<https://github.com/hits-mbm-dev/hits-quarto> for the repository of
+the paper draft. Or even better yet, talk to me in front of the poster!
+:::
+:::
+
+::: {#left-bar}
+# Abstract
+
+Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
+enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
+exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit
+nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor
+minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure
+elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor
+Lorem duis laboris cupidatat officia voluptate. Culpa proident
+adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod.
+Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa
+et culpa duis.
+:::
+
+::: {#right-bar}
+Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
+enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
+exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit
+nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor
+minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure
+elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor
+Lorem duis laboris cupidatat officia voluptate. Culpa proident
+adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod.
+Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa
+et culpa duis.
+
+# Acknowledgments
+
+This project has received funding from the European Research Council
+(ERC) under the European Union's Horizon 2020 research and innovation
+program (grant agreement No. 101002812)
+
+Shoutout to quarto [@quarto].
+
+# References
+
+::: {#refs}
+:::
+:::
+
