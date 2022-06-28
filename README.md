@@ -29,6 +29,8 @@ format:
         size: "250"
 ```
 
-Looking to submit to a journal? Use one of these formats: <https://github.com/quarto-journals>
+Note: the poster format uses the `poster.qmd` template, while `index.qmd` is an example for the main formats.
+Because it is named `index`, it automatically works with GitHub pages.
 
+Looking to submit to a journal? Use one of these formats: <https://github.com/quarto-journals>
 
