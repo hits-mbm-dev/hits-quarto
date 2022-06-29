@@ -34,3 +34,9 @@ Because it is named `index`, it automatically works with GitHub pages.
 
 Looking to submit to a journal? Use one of these formats: <https://github.com/quarto-journals>
 
+## Screenshots
+
+![](img/2022-06-29-15-11-38.png)
+
+![](img/2022-06-29-15-12-26.png)
+
