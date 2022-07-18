@@ -19,7 +19,7 @@ date: "2022-02-22"
 link-citations: true
 validate-yaml: false
 format:
-  hits/poster-html:
+  hits-poster-html:
     css: ./poster.css
     qrcode:
       text: "https://github.com/hits-mbm-dev/hits-quarto"

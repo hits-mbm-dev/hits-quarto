@@ -27,10 +27,10 @@ citation:
   citation-key: citationKeyNumber
   status: draft
 format:
-  hits/main-html: default
-  hits/main-docx: default
-  hits/main-revealjs: default
-  hits/main-pdf:
+  hits-html: default
+  hits-docx: default
+  hits-revealjs: default
+  hits-pdf:
     keep-tex: true  
 ---
 
