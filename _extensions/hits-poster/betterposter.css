@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab:700%7CSource+Code+Pro%7CSource+Sans+Pro:300,700');
 
 @page {
-  width: 46.8in;
-  height: 33.1in;
+  height: 841mm;
+  width: 1189mm;
   margin: 0;
 }
 
 html, body {
   background: #fff;
   min-width: 0;
+  height: 841mm;
+  width: 1189mm;
+  margin: 0;
 }
 
 html {
   font-family: "Roboto";
   font-size: 24px;
   color: #333;
-  width: 46.8in;
-  height: 33.09669in;
+  width: 841mm;
 }
 
 /* ---- Grid ---- */
@@ -28,10 +30,8 @@ body {
   "L H R"
   "L H R";
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 10fr auto 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
   margin: 0;
-  width: 46.3in;
-  height: 32.59669in;
   grid-gap: 0.25in;
 }
 
@@ -90,7 +90,7 @@ sup {
   color: #fff;
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   padding: 10%;
-  font-size: 48px;
+  font-size: 2rem;
 }
 
 #hero h1 {

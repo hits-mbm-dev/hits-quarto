@@ -25,6 +25,55 @@
 
     <style>
     /* Override template defaults */
+    $if(fontsize)$
+    html {
+      font-size: $fontsize$;
+    }
+    $endif$
+    
+    $if(format.landscape)$
+      $if(format.a1)$
+        @page {
+          height: 594mm;
+          width: 841mm;
+        }
+        html, body {
+          height: 594mm;
+          width: 841mm;
+        }
+      $else$
+        @page {
+          height: 841mm;
+          width: 1189mm;
+        }
+        html, body {
+          height: 841mm;
+          width: 1189mm;
+        }
+      $endif$
+    $else$
+      $if(format.a1)$
+        @page {
+          height: 841mm;
+          width: 594mm;
+        }
+        html, body {
+          height: 841mm;
+          width: 594mm;
+        }
+      $else$
+        @page {
+          height: 1189mm;
+          width: 841mm;
+        }
+        html, body {
+          height: 1189mm;
+          width: 841mm;
+        }
+      $endif$
+    $endif$
+
+
     $if(height)$
     @page {
       height: $height$;
@@ -47,12 +96,15 @@
       width: calc($width$ - 0.5in);
     }
     $endif$
+
     $if(hero_background)$
     #hero { background: $hero_background$;}
     $endif$
+
     $if(hero_color)$
     #hero * { color: $hero_color$;}
     $endif$
+
     $if(logo)$
     #left-bar {
       background-image: url($logo$);
@@ -62,9 +114,11 @@
       margin-bottom: 2%;
     }
     $endif$
+
     $if(linkcolor)$
     a, a:visited, a:hover, a:focus, a:active { color: $linkcolor$; }
     $endif$
+
     $if(highlight_color)$
     strong, b, sup { color: $highlight_color$; }
     $endif$
@@ -110,21 +164,7 @@ $body$
 })();
 </script>
 
-$if(math)$
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "$if(mathjax)$$mathjax$$endif$";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-$endif$
+$math$
 
 
 $if(qrcode)$
