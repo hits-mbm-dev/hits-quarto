@@ -18,12 +18,12 @@ Then use one of the formats (or multiple):
 
 ```yaml
 format:
-  hits/main-html: default
-  hits/main-docx: default
-  hits/main-revealjs: default
-  hits/main-pdf:
+  hits-html: default
+  hits-docx: default
+  hits-revealjs: default
+  hits-pdf:
     keep-tex: true  
-  hits/poster-html:
+  hits-poster-html:
       qrcode:
         text: "https://github.com/hits-mbm-dev/hits-quarto"
         size: "250"
